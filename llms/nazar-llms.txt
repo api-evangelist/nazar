@@ -1,0 +1,35 @@
+# Nazar
+
+> Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases across Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA in cloud, on-premises, and hybrid environments. Backed by 500 Global and based in Recife, Brazil.
+
+<!--
+generated: '2026-07-20'
+method: generated
+source: apis.yml + https://nazar.ai (no provider-published /llms.txt found; docs host returns 403 to fetchers)
+-->
+
+## About
+
+- Company: Nazar
+- Product: AI database performance and cost optimization / observability platform
+- Databases supported: Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, SAP HANA
+- Environments: cloud, on-premises, hybrid
+- Capabilities: SQL.AI (LLM-based tuning assistant), offensive SQL monitoring (slow-query detection), real-time lock visibility, anomaly detection
+- Location: Recife, Brazil
+- Backed by: 500 Global
+
+## Links
+
+- [Website](https://nazar.ai)
+- [Features](https://nazar.ai/features)
+- [Company](https://nazar.ai/company)
+- [Log in](https://nazar.ai/login.html)
+- [Schedule a demo](https://cal.com/nazar-ai/30min)
+- [LinkedIn](https://www.linkedin.com/company/nazar)
+- [Twitter / X](https://twitter.com/nazar_io)
+
+## Notes
+
+- No public developer REST API, OpenAPI, or API reference was found at the time of enrichment. The homepage "API Docs" link resolves to the marketing site, not a developer surface.
+- No public GitHub organization (`nazar`, `nazar-ai`) was found.
+- Access to the product is demo/login gated; there is no self-serve sign-up, published pricing, or blog surfaced publicly.

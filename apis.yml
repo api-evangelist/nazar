@@ -1,7 +1,24 @@
 aid: nazar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nazar.png
 name: Nazar
-description: Nazar is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization
+  platform that helps engineering and DBA teams monitor, analyze, and tune their databases.
+  It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA
+  across cloud, on-premises, and hybrid environments. Capabilities include SQL.AI, an
+  LLM-based tuning assistant, offensive SQL monitoring for slow-query detection, real-time
+  lock visibility, and anomaly detection. Founded in Recife, Brazil and backed by 500
+  Global, Nazar counts financial-services and travel companies among its customers.
 url: https://raw.githubusercontent.com/api-evangelist/nazar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Database
+- Database Monitoring
+- Performance
+- Observability
+- Cost Optimization
+- SQL
+- Artificial Intelligence
+- DevOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nazar-domain-security.yml
+- type: LLMsTxt
+  url: llms/nazar-llms.txt
 - type: Website
   url: https://nazar.ai
+- type: Login
+  url: https://nazar.ai/login.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nazar
+- type: Twitter
+  url: https://twitter.com/nazar_io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
