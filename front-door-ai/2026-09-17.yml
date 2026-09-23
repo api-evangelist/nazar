@@ -1,0 +1,27 @@
+# Front Door AI Index — nazar — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nazar
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: nazar.ai
+  final_host: nazar.ai
+  ownership: own
+  owner: nazar
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 18
+  host_score: 18
+  density: 12.55
+  words: 1434
+  tiers:
+    agentic: 5
+    core: 13
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 12
+    MCP: 5
+    LLMs: 1
