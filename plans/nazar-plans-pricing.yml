@@ -1,0 +1,40 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://nazar.ai
+sources:
+- https://nazar.ai
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Empresarial Para empresas com múltiplos bancos de dados e modelo BYOC
+  managed_tier: Profissional
+published: true
+note: Página em português com dois planos numéricos; modelo BYOC (agentes rodam na cloud do cliente) sob
+  licença anual fixa, além de serviços especializados sem preço.
+plan_count: 2
+currency: BRL
+plans:
+- name: Profissional
+  price_text: R$299
+  price: 299
+  currency: BRL
+  period: month
+  unit: Por host de banco de dados por mês
+  included_quota: Agente de IA especializado em bancos de dados, performance e custos; Monitoramento de
+    consultas lentas; Carga do banco, bloqueios, sessões; Relatório gerencial; Métricas e alertas
+- name: Empresarial
+  price_text: R$10000
+  price: 10000
+  currency: BRL
+  period: month
+  unit: Por mês, sem limites de bancos de dados
+  included_quota: BYOC, controle de custos, cobrança independente da quantidade de bancos monitorados,
+    recomendações e relatórios, integração por API/MCP
