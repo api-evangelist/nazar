@@ -57,6 +57,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://nazar.ai
+- type: Plans
+  url: plans/nazar-plans-pricing.yml
 - type: DomainSecurity
   url: security/nazar-domain-security.yml
 - type: LLMsTxt
